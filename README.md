@@ -1,4 +1,4 @@
-# occultercut_run
+# occultercut_workflow
 OcculterCut: A Comprehensive Survey of AT-Rich Regions in Fungal Genomes
 https://academic.oup.com/gbe/article/8/6/2044/2574090
 
