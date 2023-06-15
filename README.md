@@ -2,7 +2,7 @@
 OcculterCut: A Comprehensive Survey of AT-Rich Regions in Fungal Genomes
 https://academic.oup.com/gbe/article/8/6/2044/2574090
 
-this document is provided to outline how to install and run the occultercut software for multiple libraries/isolates, also getting summarized info from the output. 
+This document provides instructions on how to install and run the OcculterCut software for multiple libraries/isolates, as well as how to obtain summarized information from the output
 
 # install in local computer or remote computer e.g. nimbus
 
@@ -13,11 +13,11 @@ wget https://sourceforge.net/projects/occultercut/files/OcculterCut_v1.1.tar.gz
 #extract the occultercut
 tar -xzf OcculterCut_v1.1.tar.gz
 
-#cd to the folder, then run
+#cd to the folder, update the package manager, install the g++ compiler if it's not already installed
 sudo apt-get update
-sudo apt install g++ #if not installed
+sudo apt install g++ 
 
-#then 
+#then run the make command to generate execuatble files
 make
 ```
 
