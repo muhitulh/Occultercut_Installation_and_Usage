@@ -47,4 +47,4 @@ done < ./dpird_assembly/list.txt #if list in different directory, you have to pr
 
 # getting the summary reports
 - the above script will create a directory: results
-- download two summary scripts in that folder and run, it should generate summary of AT and GC percentage/lenght, and GC profiles in ~10 percentile bins for all the isolates/libraries.
+- download above summary scripts: calculate_10_percentile_bin_gc.py and calculate_summary_gc_at_length_percent.py in the results directory and run, it should generate summary of AT and GC percentage/length, and GC profiles in ~10 percentile bins for all the isolates/libraries.
