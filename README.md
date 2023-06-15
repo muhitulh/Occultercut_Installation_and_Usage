@@ -1,4 +1,8 @@
 # occultercut_run
+OcculterCut: A Comprehensive Survey of AT-Rich Regions in Fungal Genomes
+https://academic.oup.com/gbe/article/8/6/2044/2574090
+
+this document is provided to outline how to install and run the occultercut software for multiple libraries/isolates, also getting summarized info from the output. 
 
 # install in local computer or remote computer e.g. nimbus
 
