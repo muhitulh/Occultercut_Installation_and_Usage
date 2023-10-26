@@ -36,8 +36,8 @@ while IFS= read -r library; do
   # Create a folder for the current ID
   mkdir -p ./results/$library
 
-  # Run OcculterCut for the current DPIRD ID
-  ./OcculterCut_v1.1/OcculterCut -f ./dpird_assembly/${library}_ncl_assembly.fasta
+  # Run OcculterCut for the current ID
+  ./OcculterCut_v1.1/OcculterCut -f ./path/${library}_ncl_assembly.fasta
 
   # Move the output files to the respective folder
   mv *.txt *.gff3 *.R0 *.R1 *.plt ./results/$library/
